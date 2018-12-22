@@ -12,6 +12,6 @@ network.train(trainingData, {
     iterations: 2000
 });
 
-const output = network.run('[ENTER STRING HERE]');
+const output = network.run('drive');
 
 console.log(`Category: ${output}`);
